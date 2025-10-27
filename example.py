@@ -1,0 +1,11 @@
+# a=int(input("Enter the 1st number: "))
+# b=int(input("Enter the 2st number: "))
+# print("sum="+str(a+b))
+# print("Type of data:"+str(type(a))+","+str(type(b)))
+name=input("Name: ")
+n=int(input("The limit to which you have to cut the string: "))
+sl=name[0:n]
+print("Length of the string:"+str(len(name)))
+print("New string:"+sl)
+print("Ends with ant?:"+str(name.endswith("ant")))
+print("Slpit string is:"+str(name.split(" ")))
